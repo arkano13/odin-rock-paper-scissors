@@ -1,0 +1,72 @@
+body{
+margin: 0px;
+}
+
+h1{
+    font-family:cursive; 
+ }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,.footer{
+    background-color: #4acabb;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    background-color: #cbe5c0;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.scoreboard{
+    background-color: white ;
+    height: 300PX;
+    width: 900PX;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+}
+
+.score{
+    font-family: cursive;
+    font-size: 25px;
+}
+
+button{
+    background-color: white;
+    border: 2px solid #4acabb ;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+
+}
+
+.op{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pcselect,.winner{
+font-size: 20px;
+font-family: cursive
+}
